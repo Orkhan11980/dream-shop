@@ -1,6 +1,6 @@
 package com.test.dream_shop.request;
 
-import java.math.BigDecimal;
+import java.math.BigDecimal; 
 
 
 import com.test.dream_shop.model.Category;
@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 public class AddProductRequest {
 
-    private Long id;
+    // private Long id;
     
     private String name;
 

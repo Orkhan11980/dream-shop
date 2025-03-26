@@ -56,7 +56,7 @@ public class ImageController {
             .body(resource);
     }
 
-    @PutMapping("/image/{imageId/update")
+    @PutMapping("/image/{imageId}/update")
     public ResponseEntity<ApiResponse> updateImage(@PathVariable Long imageId , @RequestBody MultipartFile files){
 
         try {
